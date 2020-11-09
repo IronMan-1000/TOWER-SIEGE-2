@@ -13,7 +13,7 @@ var backImage;
 
 function preload(){
   polygon_img=loadImage("polygon.png");
-  backImage = loadImage("back.png")
+  
 }
 
 function setup() {
@@ -105,7 +105,7 @@ function setup() {
 
 
 function draw() {
-  background(backImage); 
+  background("blue"); 
 
   textSize(40);
   strokeWeight(10);
